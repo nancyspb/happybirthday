@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Mensaje de Amor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #fff;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.5rem;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        .heart {
+            font-size: 5rem;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>💖 Un Mensaje para Ti 💖</h1>
+    <p>Hoy quiero recordarte lo especial que eres para mí. Eres la luz que ilumina mis días y la razón de mi sonrisa. Gracias por ser tú, por tu amor y por llenar mi vida de alegría. Te quiero con todo mi corazón.</p>
+    <div class="heart">❤️</div>
+</body>
+</html>
